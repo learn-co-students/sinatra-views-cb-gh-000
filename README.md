@@ -4,14 +4,14 @@
 
 We'll explore the purpose of views in a Sinatra application and will render them as separate files.
 
-## Objectives
+## Objectivesk
 
 1. Explain the advantage of storing HTML in a separate file from `app.rb`
 2. Create `index.erb` in the views directory
 3. Update your controller to render appropriate erb files
 2. Render multiple routes with multiple views
 
-
+k
 ### Part 1: Rendering HTML
 
 Rendering plain text is a great way to test the behaviors of our routes, but it doesn't give us any control over how the content is displayed. We'd like to structure our content using HTML and render that to the browser instead. The most basic way to do this is to include html tags as a part of the string we're rendering. If you haven't already, fork, clone, and open this lab. In the "/" route of our `app.rb` file, try the following:
